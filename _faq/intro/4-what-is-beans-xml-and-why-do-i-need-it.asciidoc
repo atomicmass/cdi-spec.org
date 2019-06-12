@@ -111,10 +111,10 @@ There may also be zero or more `@Alternative` stereotype elements. The same ster
 
 [source,xml]
 ----
-<stereotypes>
+<alternatives>
    <class>com.acme.business.MockPaymentProcessor</class>
    <stereotype>com.acme.stereotype.Mock</stereotype>
-</stereotypes>
+</alternatives>
 ----
 
 And that's it! A very simple schema, used only to activate and order CDI services.
